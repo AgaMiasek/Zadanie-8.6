@@ -8,6 +8,8 @@ if (value < 0) {
 	console.log('wynik ujemny');
 } else if (value > 0) {
 	console.log('wynik dodatni');
-} else { 
-	console.log('Twój wynik to zero');
+} else if (value == 0) {
+	console.log('wynik to zero');	
+} else {
+	console.log ('nieprawidłowe dane');
 }
