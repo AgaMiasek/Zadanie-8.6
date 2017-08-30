@@ -4,10 +4,12 @@ var a = prompt('Wpisz liczbę \' a\'');
 var b = prompt('Wpisz liczbę\' b\'');
 var value = (a*a) + (2*a*b) - (b*b);
 
+console.log(value);
+
 if (value < 0) {
-	prompt('wynik ujemny', value);
+	console.log('wynik ujemny');
 } else if (value > 0) {
-	prompt('wynik dodatni', value);
+	console.log('wynik dodatni');
 } else { 
-	prompt('Twój wynik to zero', value);
+	console.log('Twój wynik to zero');
 }
