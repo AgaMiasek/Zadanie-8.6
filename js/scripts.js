@@ -1,17 +1,13 @@
 // scripts.js
-var name = prompt('Enter your name');
-alert('Hello, ' + name);
-console.log('Hello, ' + name);
 
-var a = 1;
-var b = 10;
+var a = prompt('Wpisz liczbę \' a\'');
+var b = prompt('Wpisz liczbę\' b\'');
 var value = (a*a) + (2*a*b) - (b*b);
-console.log(value);
 
 if (value < 0) {
-console.log('wynik ujemny');
+	prompt('wynik ujemny', value);
 } else if (value > 0) {
-	console.log('wynik dodatni');
+	prompt('wynik dodatni', value);
 } else { 
-	console.log('Twój wynik to zero');
+	prompt('Twój wynik to zero', value);
 }
